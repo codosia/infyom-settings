@@ -1,5 +1,6 @@
 {
     "name": "codosia/infyom-settings",
+    "version": "1.0.0",
     "description": "A settings manager + blade directive for Infyom package",
     "type": "library",
     "authors": [
