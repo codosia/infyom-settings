@@ -1,0 +1,24 @@
+{
+    "name": "codosia/infyom-settings",
+    "description": "A settings manager + blade directive for Infyom package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Randika Prabhashvara",
+            "email": "randikaprabhashvara@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codosia\\InfyomSettings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codosia\\InfyomSettings\\SettingsServiceProvider"
+            ]
+        }
+    }
+}
